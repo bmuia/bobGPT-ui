@@ -1,11 +1,9 @@
-import React from 'react'
+import Chatbot from "./Components/Chatbot";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      
+    <div className="h-screen flex justify-center items-center">
+      <Chatbot />
     </div>
-  )
+  );
 }
-
-export default App
